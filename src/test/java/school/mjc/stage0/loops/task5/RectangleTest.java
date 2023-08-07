@@ -15,7 +15,7 @@ class RectangleTest extends BaseIOTest {
 
         Rectangle rectangle = new Rectangle();
 
-        rectangle.printRectangleFrom8s(5, 6);
+        rectangle.printRectangleFrom8s(6, 5);
 
         assertOutEquals(expected);
     }
@@ -45,7 +45,7 @@ class RectangleTest extends BaseIOTest {
 
         Rectangle rectangle = new Rectangle();
 
-        rectangle.printRectangleFrom8s(6, 5);
+        rectangle.printRectangleFrom8s(5, 6);
 
         assertOutEquals(expected);
     }

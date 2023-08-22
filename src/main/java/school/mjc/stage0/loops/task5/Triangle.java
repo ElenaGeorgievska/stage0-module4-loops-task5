@@ -5,7 +5,8 @@ public class Triangle {
 
         for (int i = 1; i <= cathetusLength; ++i) {  //Outer loop for rows
             for (int j = 1; j <= i;++j) { //Inner loop for Col
-                System.out.print("8 "); //Print *
+                System.out.print("8"); //Print *
+                //System.out.print("8"); //Print *
             }
             System.out.println(); //New line
         }
